@@ -1,0 +1,35 @@
+{
+  "experiment": "standalone_train_test_split",
+  "timestamp": "20251124_154323",
+  "config": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": true,
+    "enable_thresholds": true,
+    "enable_fallback": true
+  },
+  "train_results": {
+    "set_name": "train",
+    "accuracy": 0.9491954935425763,
+    "f1_macro": 0.9128342482032152,
+    "f1_weighted": 0.949897932492648,
+    "precision_macro": 0.9146874358511755,
+    "recall_macro": 0.9224986850802683,
+    "valid_predictions": 32753,
+    "total_samples": 32753,
+    "prediction_success_rate": 1.0,
+    "avg_confidence": 0.6825328675817409
+  },
+  "test_results": {
+    "set_name": "test",
+    "accuracy": 0.9459030406643057,
+    "f1_macro": 0.9101573446210829,
+    "f1_weighted": 0.9465688119360859,
+    "precision_macro": 0.9196391613392174,
+    "recall_macro": 0.9121932799949114,
+    "valid_predictions": 8189,
+    "total_samples": 8189,
+    "prediction_success_rate": 1.0,
+    "avg_confidence": 0.6871830664247625
+  }
+}

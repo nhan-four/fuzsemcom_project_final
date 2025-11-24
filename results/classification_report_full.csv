@@ -1,0 +1,12 @@
+,precision,recall,f1-score,support
+optimal,1.0,0.7647,0.8667,34.0
+nutrient_deficiency,0.992,1.0,0.996,15036.0
+fungal_risk,0.7012,1.0,0.8244,284.0
+water_deficit_acidic,1.0,0.9289,0.9631,8646.0
+water_deficit_alkaline,0.8991,0.943,0.9205,5473.0
+acidic_soil,1.0,0.9273,0.9623,3176.0
+alkaline_soil,0.8944,0.9245,0.9092,1961.0
+heat_stress,0.8378,0.8748,0.8559,6332.0
+accuracy,0.9485,0.9485,0.9485,0.9485
+macro avg,0.9156,0.9204,0.9123,40942.0
+weighted avg,0.9514,0.9485,0.9492,40942.0
